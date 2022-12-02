@@ -1,0 +1,162 @@
+body{
+    box-sizing: content-box;
+    background-color: #BDBDBD;
+    width: 100%;
+}
+
+#root{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.m-tb-2{
+    margin: 1.5rem 0;
+}
+
+.gap-5{
+    gap: 3rem;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-start{
+    display: flex;
+    justify-content: start;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: end;
+}
+
+
+.container{
+    padding: 0 6%;
+}
+
+
+
+.header-container{
+    display: flex;
+    width: 100%;
+    background-color: #5a5a5a;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.sida-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+.input-search{
+    font-size: 22px;
+    height: 30px;
+    width: 250px;
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-search{
+    border-radius: 0px;
+    background-color: yellow;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-button{
+    border-radius: 0;
+    color: #eee;
+    background-color: #3d39d0;
+    font-size: 26px;
+    font-weight: 600;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+}
+
+.btns-section{
+    display: flex;
+}
+
+.line{
+    content: '';
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+}
+
+.paragraph{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ltr-direction{
+    direction: rtl;
+}
+
+.btn-slider{
+    border: none;
+    border-radius: 0px;
+    height: 50px;
+    color: aqua;
+}
+
+.footer-s-1{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.footer-s-2{
+    color: #000;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.btn-go-to-top{
+    margin: 10px 0;
+    color: red;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+.name{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fullname{
+    color: #000;
+    font-size: 16px;
+}
